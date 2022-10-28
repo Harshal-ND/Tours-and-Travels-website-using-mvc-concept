@@ -1,0 +1,259 @@
+
+
+.navbar-brand{
+	
+	margin-left:70px;
+	font-size:30px; 
+	animation-name:title;
+	animation-duration:3s;
+	animation-iteration-count:infinite;
+	
+}
+@keyframes title{
+	
+	from{font-size:20px;}
+	to {font-size:40px;}
+	
+}
+
+ .nav{
+ margin-right:40px;
+ padding:20px;
+ border-radius:50px;
+ background-color:rgb(250, 234, 245);
+ }
+.nav li
+{
+	
+	margin:0px 20px;
+	font-size:15px;
+	font-weight:500;
+}
+ .nav-list a{
+ 	color:black;
+ 	transition-property:transform;
+ 	transition-duration:0.3s;
+ 	
+ }
+  .nav-list a:hover{
+ 	color:black;
+ 	transform:scale(1.2);
+ 	color:rgb(255, 135, 135);
+ 	
+ }
+
+ .carousel-caption h5{
+ 	
+ 	font-size:30px;
+ 	font-family: 'Kalam', cursive;
+ 	animation-name:text-huge;	
+ 	animation-duration:3s;
+ 	animation-iteration-count:1;
+ }
+  @keyframes text-huge{
+ 	
+ 	from{font-size:20px;
+ 	font-family: 'Kalam', cursive;}
+ 	to
+ 	{
+ 	font-size:40px
+ 	}
+ 		
+ }
+ .carousel-caption p{
+ 	
+ 	
+ 	font-size:90px;
+ 	font-family: 'Kalam', cursive;
+ 	animation-name:text-rotate;	
+ 	animation-duration:3s;
+ 	animation-iteration-count:1;
+ 	
+ 	
+ }
+   @keyframes text-rotate{
+ 	
+ 	from{transform:rotate(0deg);
+ 	}
+ 	to
+ 	{
+ 	transform:rotateY(360deg);
+ 	}
+ 		
+ }
+ .services .card{
+	
+	margin-top:40px;
+	margin-left:95px;
+	border-color:white;
+	display:inline-block;
+	border-radius:0px;
+	
+}
+.services .card-img-top{
+	
+	background-color:#E80F88;
+	
+}
+ .services .card-body{
+	
+	text-align:center;
+	
+}
+.services .card img{
+	
+	transition-property:transform;
+	transition-duration:0.7s;
+	border-radius:0px;
+	
+}
+.services .card img:hover{
+	
+	transform:scale(1.1);
+	background-color:#4C0033;
+	
+}
+.services h1{
+	text-align:center;
+	margin-top:50px;
+}
+
+.about-box{
+	
+	height:500px;
+	background-color:white;
+	margin-top:40px;
+}
+.about-box .left-block{
+	
+	display:inline-block;
+	width:600px;
+	height:400px;
+	
+	margin-left:125px;
+	margin-top:50px;
+}
+
+.about-box .right-block{
+	
+	width:600px;
+	height:200px;
+	
+	margin-bottom:50px;
+	margin-left:30px;
+	display:inline-block;
+}
+.about-box .right-block h6{
+	
+	font-size:30px;
+}
+.about p{
+	
+	text-align: justify;
+}
+.about h6{
+	font-size:30px;
+}
+
+.package{
+	
+	width:100%;
+	
+}
+.txt{
+	
+	padding-top:40px;
+	padding-bottom:40px;	
+	text-align:center;
+}
+.txt h4, .txt-submit{
+	font-size:40px;
+	text-align:center;
+}
+.card-section{
+	display: flex;
+	justify-content: center;
+	padding: 50px;
+}
+
+.card{
+	display:inline-block;
+	display: flex;
+	justify-content: center;
+	margin-left:70px;
+		
+}
+.card-body{
+	
+	padding:20px;
+	
+	
+	
+}
+.txt-submit{
+	
+	padding-bottom:30px;
+	padding-bottom:40px;
+	
+}
+.txt, .card-section, .txt-submit{
+	
+	background-color:rgb(250, 234, 245);
+	
+}
+
+.card-section .card{
+	transition-property:transform;
+	transition-duration:0.3s;
+}
+.card-section .card:hover{
+	
+	transform:Scale(1.1);
+	
+}
+#eleven .container .ten
+{
+	
+	padding:20px;
+	
+}
+#eleven{
+	
+	padding-top:20px;
+	display:flex;
+	justify-content:center;
+	background-color:rgb(255, 148, 148)
+	
+	 
+}
+
+
+
+/*   book.html starts*/
+
+#form-a{
+	
+	
+	display:flex;
+	justify-content:center;
+	margin:auto;
+	padding:20px;
+	
+}
+.form-1{
+	
+	width:60%;
+	background-color:rgb(188, 226, 158);
+	margin:auto;
+	
+}
+#upper, #lower{
+	
+	height:100px;
+}
+#upper h2{
+	
+	text-align:center;
+	padding:20px;
+	
+}
